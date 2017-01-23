@@ -98,9 +98,18 @@ blockquote {
 
 
 section {
-    padding: 1em 0em 1em 0em;
-    margin: 1em 0em 1em 0em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     /*border: 1px solid gray;*/
+}
+
+/*overwrite normalize.css*/
+figure {
+    padding: 0;
+    margin: 0;
+
 }
 
 
